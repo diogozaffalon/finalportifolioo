@@ -1,0 +1,107 @@
+/*Editando as funções*/
+#sobre,
+#portifolio,
+#contato,
+#habilidades {
+  padding: 10rem 0;
+}
+
+/*Imagem Hero*/
+.bgimage {
+    height: 100vh;
+    position: relative;
+    background: url("images/fundoroxo.jpg");
+    background-size: cover;
+}
+.heroTitle {
+    font-size: 4.5rem;
+}
+.heroDesc {
+    font-size: 2rem;
+}
+.heroText {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: antiquewhite;
+}
+
+/* Imagem Sobre Mim*/
+.aboutImage {
+    width: 100%;
+}
+
+.servicesText.card {
+    height: 200px;
+    cursor: pointer;
+    padding: 0 2rem;
+}
+.servicesIcon {
+    height: 36px;
+    text-align: center;
+    width: 100%;
+}
+.cardTitle {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #6700ff;
+}
+.servicesText:hover {
+    border: 1px solid #6700ff;
+}
+
+/*Estilização cabeçalho*/
+.navbar {
+    background-color: #6700ff;
+}
+.navbar a {
+    color: antiquewhite;
+    padding: 0.5rem;
+}
+.navbar a:hover {
+    background-color: beige;
+    color: black;
+    border-radius: 4px;
+}
+/*Estilização do acesso dos links do portifolio*/
+.linkA {
+    color:#6700ff;
+}
+
+/*icones de contato*/
+.contactIcon {
+font-size: 2.5rem;
+color: #6700ff
+}
+
+footer {
+    background-color: #6700ff;
+}
+.footerIcon {
+    font-size: 2rem;
+    color: white;
+}
+.footericon:hover {
+color: #c4c4c4;
+}
+.footerdev {
+    background-color: #6700ff;
+}
+
+/*Efeito de Glassmorphismo*/
+.glass {
+    position: absolute;
+    height: 40%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+
+background: rgba(119, 0, 255, 0.18);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.7px);
+-webkit-backdrop-filter: blur(3.7px);
+}
